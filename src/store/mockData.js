@@ -1,0 +1,213 @@
+export const INITIAL_HOSPITALS = [
+  {
+    id: 'hosp-1',
+    name: 'Apollo City Hospital',
+    city: 'Chennai',
+    area: 'Chennai Central - Chennai',
+    type: 'Private',
+    rating: 4.9,
+    distanceKm: 1.8,
+    travelTime: '~6 mins',
+    coordinates: { lat: 13.0604, lng: 80.2496 },
+    phone: '+91 44 2829 0200',
+    emergencyContact: '1066',
+    doctorInCharge: 'Dr. Ramanathan K., MD (Critical Care)',
+    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Cardiac ICU', 'ECMO', 'Trauma ICU', 'PICU', 'Isolation'],
+    totalBeds: 40,
+    availableBeds: 11,
+    occupiedBeds: 26,
+    reservedBeds: 2,
+    maintenanceBeds: 1,
+    lastSynced: 'live',
+  },
+  {
+    id: 'hosp-2',
+    name: 'Green Valley Medical',
+    city: 'Chennai',
+    area: 'Anna Nagar - Chennai',
+    type: 'Private',
+    rating: 4.7,
+    distanceKm: 4.2,
+    travelTime: '~14 mins',
+    coordinates: { lat: 13.0850, lng: 80.2101 },
+    phone: '+91 44 2621 1100',
+    emergencyContact: '+91 44 2621 1199',
+    doctorInCharge: 'Dr. Shalini Verma, DNB (Anesthesiology)',
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Cardiac ICU', 'Trauma ICU', 'Isolation'],
+    totalBeds: 32,
+    availableBeds: 6,
+    occupiedBeds: 23,
+    reservedBeds: 2,
+    maintenanceBeds: 1,
+    lastSynced: 'live',
+  },
+  {
+    id: 'hosp-3',
+    name: 'Government General Hospital',
+    city: 'Chennai',
+    area: 'Chennai Central - Chennai',
+    type: 'Government',
+    nodeId: 'H003 (TN-DISPATCH)',
+    desk: 'Emergency Triaging Command',
+    rating: 4.6,
+    distanceKm: 2.8,
+    travelTime: '~9 mins',
+    coordinates: { lat: 13.0827, lng: 80.2707 },
+    phone: '+91 44 2530 5000',
+    emergencyContact: '108',
+    doctorInCharge: 'ICU Medical Director',
+    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Trauma ICU', 'Pediatric ICU', 'Isolation'],
+    totalBeds: 50,
+    availableBeds: 3,
+    occupiedBeds: 44,
+    reservedBeds: 3,
+    maintenanceBeds: 0,
+    lastSynced: 'live',
+  },
+  {
+    id: 'hosp-4',
+    name: 'Kovai Medical Center & Hospital',
+    city: 'Coimbatore',
+    area: 'Avinashi Road, Civil Aerodrome Post',
+    type: 'Private',
+    rating: 4.8,
+    distanceKm: 3.2,
+    travelTime: '~11 mins',
+    coordinates: { lat: 11.0520, lng: 77.0370 },
+    phone: '+91 422 432 3800',
+    emergencyContact: '+91 422 432 3999',
+    doctorInCharge: 'Dr. S. Balasubramanian, DM (Cardiology)',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Cardiac ICU', 'ECMO', 'Isolation'],
+    totalBeds: 32,
+    availableBeds: 6,
+    occupiedBeds: 22,
+    reservedBeds: 3,
+    maintenanceBeds: 1,
+    lastSynced: 'live',
+  },
+  {
+    id: 'hosp-5',
+    name: 'Coimbatore Medical College Hospital',
+    city: 'Coimbatore',
+    area: 'Trichy Road, Gopalapuram',
+    type: 'Government',
+    rating: 4.5,
+    distanceKm: 2.6,
+    travelTime: '~8 mins',
+    coordinates: { lat: 11.0016, lng: 76.9674 },
+    phone: '+91 422 230 1393',
+    emergencyContact: '108',
+    doctorInCharge: 'Dr. K. Geetha, MD (Critical Care)',
+    image: 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Trauma ICU', 'PICU', 'Isolation'],
+    totalBeds: 40,
+    availableBeds: 8,
+    occupiedBeds: 28,
+    reservedBeds: 3,
+    maintenanceBeds: 1,
+    lastSynced: 'live',
+  },
+  {
+    id: 'hosp-6',
+    name: 'Ganga Critical Care & Trauma Unit',
+    city: 'Coimbatore',
+    area: '313 Mettupalayam Road, Ram Nagar',
+    type: 'Private',
+    rating: 4.9,
+    distanceKm: 1.9,
+    travelTime: '~6 mins',
+    coordinates: { lat: 11.0183, lng: 76.9558 },
+    phone: '+91 422 223 5050',
+    emergencyContact: '+91 422 223 5000',
+    doctorInCharge: 'Dr. S. Rajasekaran, MS, FRCS',
+    image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=600&q=80',
+    facilities: ['Ventilator', 'Trauma ICU', 'Cardiac ICU', 'Isolation'],
+    totalBeds: 24,
+    availableBeds: 4,
+    occupiedBeds: 17,
+    reservedBeds: 2,
+    maintenanceBeds: 1,
+    lastSynced: 'live',
+  }
+];
+
+export const INITIAL_BEDS = {
+  'hosp-3': [
+    {
+      id: 'ICU-301',
+      unitNumber: 'ICU-301',
+      ward: 'Ward 14 - Trauma Care Center',
+      type: 'Trauma ICU',
+      status: 'AVAILABLE',
+      note: 'Available now (Ready for Intake)',
+      facilities: ['Ventilator']
+    },
+    {
+      id: 'ICU-302',
+      unitNumber: 'ICU-302',
+      ward: 'Ward 14 - Trauma Care Center',
+      type: 'Trauma ICU',
+      status: 'AVAILABLE',
+      note: 'Available now (Ready for Intake)',
+      facilities: ['Ventilator']
+    },
+    {
+      id: 'ICU-303',
+      unitNumber: 'ICU-303',
+      ward: 'Ward 16 - Pediatric ICU',
+      type: 'Pediatric ICU',
+      status: 'AVAILABLE',
+      note: 'Available now (Ready for Intake)',
+      facilities: ['Ventilator']
+    },
+    {
+      id: 'ICU-304',
+      unitNumber: 'ICU-304',
+      ward: 'Ward 16 - Pediatric ICU',
+      type: 'Pediatric ICU',
+      status: 'AVAILABLE',
+      note: 'Available now (Ready for Intake)',
+      facilities: ['Ventilator']
+    },
+    {
+      id: 'ICU-305',
+      unitNumber: 'ICU-305',
+      ward: 'Ward 18 - Isolation Care',
+      type: 'Isolation ICU',
+      status: 'AVAILABLE',
+      note: 'Available now (Ready for Intake)',
+      facilities: ['Ventilator']
+    }
+  ],
+  'hosp-1': [
+    { id: 'ICU-101', unitNumber: 'ICU-101', ward: 'Ward 2 - Cardiac Care', type: 'Ventilator', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] },
+    { id: 'ICU-102', unitNumber: 'ICU-102', ward: 'Ward 2 - Cardiac Care', type: 'Ventilator', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] },
+    { id: 'ICU-103', unitNumber: 'ICU-103', ward: 'Ward 3 - CCU', type: 'Cardiac ICU', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] },
+    { id: 'ICU-104', unitNumber: 'ICU-104', ward: 'Ward 3 - CCU', type: 'Cardiac ICU', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator', 'Cardiac ICU'] },
+    { id: 'ICU-105', unitNumber: 'ICU-105', ward: 'Ward 5 - Advanced Critical', type: 'ECMO Unit', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['ECMO'] }
+  ],
+  'hosp-2': [
+    { id: 'GV-201', unitNumber: 'GV-201', ward: '3rd Floor - Wing A', type: 'Ventilator', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] },
+    { id: 'GV-202', unitNumber: 'GV-202', ward: '3rd Floor - Wing B', type: 'Cardiac ICU', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Cardiac ICU'] },
+    { id: 'GV-203', unitNumber: 'GV-203', ward: '3rd Floor - Wing C', type: 'Trauma ICU', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] }
+  ],
+  'hosp-4': [
+    { id: 'KM-401', unitNumber: 'KM-401', ward: 'Tower 1 - CCU', type: 'Ventilator', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] }
+  ],
+  'hosp-5': [
+    { id: 'CM-501', unitNumber: 'CM-501', ward: 'Emergency Block', type: 'Ventilator', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] }
+  ],
+  'hosp-6': [
+    { id: 'GC-601', unitNumber: 'GC-601', ward: 'Trauma Pavilion', type: 'Trauma ICU', status: 'AVAILABLE', note: 'Available now (Ready for Intake)', facilities: ['Ventilator'] }
+  ]
+};
+
+export const INITIAL_BOOKINGS = [];
+
+export const INITIAL_USER_NOTIFICATIONS = [];
+
+export const INITIAL_HOSPITAL_NOTIFICATIONS = [];
