@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/ICU_Share/',
   plugins: [react()],
   server: {
     port: 5173,
@@ -11,8 +12,7 @@ export default defineConfig({
         target: 'http://127.0.0.1:8000',
         changeOrigin: true,
         ws: true,
-      }
-
-    }
+      },
+    },
   },
 });
